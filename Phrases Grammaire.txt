@@ -1,0 +1,50 @@
+all group attack orange group four
+group three attack orange group two
+all group retreat
+all group follow king
+all group follow mothership
+all group set speed to zero
+all group set speed to nine
+dash to mothership
+group one set speed to zero
+group two attack orange mothership
+group three attack orange mothership
+all group attack orange mothership
+group four shoot_at orange mothership
+all group defend mothership
+all defenders set speed to zero
+all defenders set speed to five
+group three go_to me
+dash to group three
+all group apply shield formation
+all group apply arrow formation
+all group apply attack pattern
+all group apply precision pattern
+all group apply normal pattern
+all group apply normal formation
+dash to group one
+all group attack green group three
+group one attack blue group five
+all group go_to king
+all group follow group two
+all group set speed to five
+all group set speed to three
+dash to group two
+group two set speed to nine
+group four attack yellow mothership
+group five attack green mothership
+all group attack blue mothership
+group six shoot_at green mothership
+all group protect mothership
+all defenders set speed to two
+all defenders set speed to seven
+group four go_to me
+dash to group four
+group one apply line formation
+group three apply defense pattern
+group five apply dodge pattern
+group seven apply attack formation
+dash to group five
+group seven set speed to one
+group eight attack pink mothership
+all group attack yellow group one

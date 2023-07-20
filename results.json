@@ -1,0 +1,3574 @@
+[
+    {
+        "filename": "Phrases histoire eng1.txt",
+        "results": [
+            {
+                "expected": "Once upon a time, in a small village nestled between a dense forest and a towering mountain, lived a young girl named Lily.",
+                "obtained": [
+                    "",
+                    "once upon a time in a small village nestled between a dense forest and a tower ring montaine lived a young girl named lily",
+                    " Once upon a time, in a small village nestled between the dense forest and a towering mountain, lived a young girl named Lily."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 23,
+                        "char_errors": 101,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8211382113821138
+                    },
+                    "run_lee": {
+                        "word_errors": 11,
+                        "char_errors": 25,
+                        "word_error_rate": 0.4782608695652174,
+                        "char_error_rate": 0.2032520325203252
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 1,
+                        "word_error_rate": 0.043478260869565216,
+                        "char_error_rate": 0.008130081300813009
+                    }
+                }
+            },
+            {
+                "expected": "She was known throughout the village for her kindness and courage.",
+                "obtained": [
+                    " group two attack blue group nine snipers",
+                    "she was known throughout the village for her kindness and courage",
+                    " She was known throughout the village for her kindness and courage."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 11,
+                        "char_errors": 46,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.696969696969697
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.18181818181818182,
+                        "char_error_rate": 0.015151515151515152
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "Despite her young age, she was always ready to help anyone in need.",
+                "obtained": [
+                    " group two attack orange king",
+                    "despite her young age she was always ready to help any one in need",
+                    " Despite her young age, she was always ready to help anyone in need."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 13,
+                        "char_errors": 53,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7910447761194029
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 4,
+                        "word_error_rate": 0.46153846153846156,
+                        "char_error_rate": 0.05970149253731343
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "One day, a mysterious creature began to terrorize the village.",
+                "obtained": [
+                    "",
+                    "one day a mysterious creator began to terrorize the village",
+                    " One day, a mysterious creator began to terrorize the village."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 10,
+                        "char_errors": 53,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8548387096774194
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 2,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.03225806451612903
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 1,
+                        "word_error_rate": 0.1,
+                        "char_error_rate": 0.016129032258064516
+                    }
+                }
+            },
+            {
+                "expected": "It was a dragon, as tall as the mountain and as fierce as the forest.",
+                "obtained": [
+                    " group zero reset orders",
+                    "it was a dragon as tall as the mountain and as fierce as the forest",
+                    " It was a dragon, as told as the mountain and as fierce as the forest."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 15,
+                        "char_errors": 53,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7681159420289855
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 1,
+                        "word_error_rate": 0.2,
+                        "char_error_rate": 0.014492753623188406
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 2,
+                        "word_error_rate": 0.06666666666666667,
+                        "char_error_rate": 0.028985507246376812
+                    }
+                }
+            },
+            {
+                "expected": "The villagers were terrified and didn't know what to do.",
+                "obtained": [
+                    " group five go_to yellow group two",
+                    "the villagers were terrified and didn't know what to do",
+                    " The villagers were terrified and didn't know what to do."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 10,
+                        "char_errors": 34,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6071428571428571
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.2,
+                        "char_error_rate": 0.017857142857142856
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "The dragon would swoop down from the mountain every day, causing havoc and fear.",
+                "obtained": [
+                    "",
+                    "the dragon would swoop down from the mountain every day coaxing havoc and fe, here",
+                    " The dragon would swoop down from the mountain every day, causing havoc and fear."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 14,
+                        "char_errors": 67,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8375
+                    },
+                    "run_lee": {
+                        "word_errors": 5,
+                        "char_errors": 5,
+                        "word_error_rate": 0.35714285714285715,
+                        "char_error_rate": 0.0625
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "Lily, seeing the distress of her fellow villagers, decided to do something.",
+                "obtained": [
+                    " group seven gunners attack pink group seven",
+                    "lily seeing the distress of her fellow villagers this, sided to do something",
+                    " Lily, seeing the distress of her fellow villagers, decided to do something."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 12,
+                        "char_errors": 56,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7466666666666667
+                    },
+                    "run_lee": {
+                        "word_errors": 7,
+                        "char_errors": 10,
+                        "word_error_rate": 0.5833333333333334,
+                        "char_error_rate": 0.13333333333333333
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "She remembered an old tale her grandmother had told her about a dragon who was calmed by a beautiful melody.",
+                "obtained": [
+                    "",
+                    "she remembered an old tale her grandmother has told her about a dragon who was calmed by a beautiful melody",
+                    " She remembered the old tale her grandmother has told her about a dragon who was calmed by a beautiful melody."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 20,
+                        "char_errors": 89,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8240740740740741
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 2,
+                        "word_error_rate": 0.15,
+                        "char_error_rate": 0.018518518518518517
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 3,
+                        "word_error_rate": 0.1,
+                        "char_error_rate": 0.027777777777777776
+                    }
+                }
+            },
+            {
+                "expected": "Lily, who had a beautiful voice, decided to sing to the dragon.",
+                "obtained": [
+                    " group zero apply attack pattern",
+                    "lily who had a beautiful voice decided to sing to the dragon",
+                    " Lily, who had a beautiful voice, decided to sing to the dragon."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 12,
+                        "char_errors": 49,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7777777777777778
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 1,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.015873015873015872
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "The next day, as the dragon swooped down, Lily stood in the middle of the village and began to sing.",
+                "obtained": [
+                    "",
+                    "the next day as the dragon swooped down lily stood in the middle of the village and began to sing",
+                    " The next day has the dragon swoop down, lily stood in the middle of the village and began to sing."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 20,
+                        "char_errors": 81,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.81
+                    },
+                    "run_lee": {
+                        "word_errors": 5,
+                        "char_errors": 2,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.02
+                    },
+                    "run_whisper": {
+                        "word_errors": 4,
+                        "char_errors": 3,
+                        "word_error_rate": 0.2,
+                        "char_error_rate": 0.03
+                    }
+                }
+            },
+            {
+                "expected": "Her voice was clear and beautiful, echoing through the mountains and forest.",
+                "obtained": [
+                    " group one attack pink group four",
+                    "her voice was clear and beautiful, echoing through the mountaine and forest",
+                    " Her voice was clear and beautiful, echoing through the mountain and forest."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 12,
+                        "char_errors": 56,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7368421052631579
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 2,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.02631578947368421
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 0,
+                        "word_error_rate": 0.08333333333333333,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "The dragon, hearing the melody, began to calm down.",
+                "obtained": [
+                    " group three gunners attack all blue gunners",
+                    "the dragon hearing the melody began to camden",
+                    " The dragon hearing the melody began to calm down."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 9,
+                        "char_errors": 34,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6666666666666666
+                    },
+                    "run_lee": {
+                        "word_errors": 5,
+                        "char_errors": 8,
+                        "word_error_rate": 0.5555555555555556,
+                        "char_error_rate": 0.1568627450980392
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 0,
+                        "word_error_rate": 0.2222222222222222,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "It landed gently in front of Lily, listening intently to her song.",
+                "obtained": [
+                    " group eight attack green group eight gunners",
+                    "it landed gently in front of lily, listening intently to her song",
+                    " It landed gently in front of Lily, slithening intently to her song."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 12,
+                        "char_errors": 52,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7878787878787878
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 2,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.030303030303030304
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 8,
+                        "word_error_rate": 0.08333333333333333,
+                        "char_error_rate": 0.12121212121212122
+                    }
+                }
+            },
+            {
+                "expected": "When Lily finished her song, the dragon, no longer fierce and terrifying, bowed its head to her.",
+                "obtained": [
+                    " group five go_to pink group four",
+                    "when lily finished her song the dragon no longer fears or two frying bowed to head to her",
+                    " When Lily finished her song, the dragon no longer fears or tilfrying bowed to head to her."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 17,
+                        "char_errors": 76,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7916666666666666
+                    },
+                    "run_lee": {
+                        "word_errors": 13,
+                        "char_errors": 23,
+                        "word_error_rate": 0.7647058823529411,
+                        "char_error_rate": 0.23958333333333334
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 15,
+                        "word_error_rate": 0.29411764705882354,
+                        "char_error_rate": 0.15625
+                    }
+                }
+            },
+            {
+                "expected": "From that day forward, the dragon no longer terrorized the village.",
+                "obtained": [
+                    " group five gunners go_to group zero",
+                    "from that day forward the dragon no longer to arise the village",
+                    " from that day forward to drag a no longer to erase the village."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 11,
+                        "char_errors": 49,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7313432835820896
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 8,
+                        "word_error_rate": 0.5454545454545454,
+                        "char_error_rate": 0.11940298507462686
+                    },
+                    "run_whisper": {
+                        "word_errors": 11,
+                        "char_errors": 15,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.22388059701492538
+                    }
+                }
+            },
+            {
+                "expected": "Instead, it would come down from the mountain to listen to Lily's songs, bringing peace and harmony to the village.",
+                "obtained": [
+                    ",  group eight retreat",
+                    "instead it would come down from the montaine to listen to lilly's song bringing peace an hour minute, the village",
+                    " Instead, it would come down from the mountain to listen to Lily's song, bringing peace and harmony to the village."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 20,
+                        "char_errors": 89,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7739130434782608
+                    },
+                    "run_lee": {
+                        "word_errors": 8,
+                        "char_errors": 16,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.1391304347826087
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 1,
+                        "word_error_rate": 0.05,
+                        "char_error_rate": 0.008695652173913044
+                    }
+                }
+            },
+            {
+                "expected": "And so, Lily's courage and kindness saved her village, proving that sometimes, the mightiest problems can be solved with the simplest solutions.",
+                "obtained": [
+                    "",
+                    "and so lily's courage and kindness saved her village proving that some time the mightiest problem can be solved, with simplest solution",
+                    " And so Lillie's courage and kindness saved her village, proving that sometime the mightiest problem can be solved with the simplest solution."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 22,
+                        "char_errors": 123,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8541666666666666
+                    },
+                    "run_lee": {
+                        "word_errors": 14,
+                        "char_errors": 28,
+                        "word_error_rate": 0.6363636363636364,
+                        "char_error_rate": 0.19444444444444445
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 4,
+                        "word_error_rate": 0.22727272727272727,
+                        "char_error_rate": 0.027777777777777776
+                    }
+                }
+            },
+            {
+                "expected": "And they all lived happily ever after.",
+                "obtained": [
+                    " defenders follow green group two gunners",
+                    "and they whole leaved happily together",
+                    " and they all lived up in the lead together."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 7,
+                        "char_errors": 28,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7368421052631579
+                    },
+                    "run_lee": {
+                        "word_errors": 5,
+                        "char_errors": 18,
+                        "word_error_rate": 0.7142857142857143,
+                        "char_error_rate": 0.47368421052631576
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 8,
+                        "word_error_rate": 0.8571428571428571,
+                        "char_error_rate": 0.21052631578947367
+                    }
+                }
+            },
+            {
+                "expected": "The end.",
+                "obtained": [
+                    "",
+                    "the end",
+                    " the end."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 2,
+                        "char_errors": 7,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.875
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.125
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 1,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.125
+                    }
+                }
+            }
+        ],
+        "total_word_errors": {
+            "run_grammar": 272,
+            "run_lee": 110,
+            "run_whisper": 42
+        },
+        "total_char_errors": {
+            "run_grammar": 1196,
+            "run_lee": 160,
+            "run_whisper": 62
+        },
+        "total_word_error_rate": {
+            "run_grammar": 1.0,
+            "run_lee": 0.40441176470588236,
+            "run_whisper": 0.15441176470588236
+        },
+        "total_char_error_rate": {
+            "run_grammar": 0.7816993464052288,
+            "run_lee": 0.10457516339869281,
+            "run_whisper": 0.040522875816993466
+        }
+    },
+    {
+        "filename": "Phrases histoire eng2.txt",
+        "results": [
+            {
+                "expected": "Once upon a time there was a small village.",
+                "obtained": [
+                    " group nine gunners go_to me",
+                    "once upon a time there were a small village",
+                    " Once upon a time there were a small village."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 9,
+                        "char_errors": 32,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7441860465116279
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 3,
+                        "word_error_rate": 0.3333333333333333,
+                        "char_error_rate": 0.06976744186046512
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 2,
+                        "word_error_rate": 0.1111111111111111,
+                        "char_error_rate": 0.046511627906976744
+                    }
+                }
+            },
+            {
+                "expected": "It was nestled between a dense forest and a towering mountain.",
+                "obtained": [
+                    " group four attack all green group",
+                    "it was nestled between a dance for rest and at overingmont",
+                    " It was nestled between a dance forest and a towering mountain."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 11,
+                        "char_errors": 47,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7580645161290323
+                    },
+                    "run_lee": {
+                        "word_errors": 7,
+                        "char_errors": 17,
+                        "word_error_rate": 0.6363636363636364,
+                        "char_error_rate": 0.27419354838709675
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 2,
+                        "word_error_rate": 0.09090909090909091,
+                        "char_error_rate": 0.03225806451612903
+                    }
+                }
+            },
+            {
+                "expected": "A young girl named Lily lived there.",
+                "obtained": [
+                    " group zero go_to pink king",
+                    "a young girl named lily lived there",
+                    " A young girl named Lily lived there."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 7,
+                        "char_errors": 26,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7222222222222222
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 2,
+                        "word_error_rate": 0.42857142857142855,
+                        "char_error_rate": 0.05555555555555555
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "She was known for her kindness and courage.",
+                "obtained": [
+                    " group one attack green group seven gunners",
+                    "she was known for her kindness and courage",
+                    " She was known for her kindness and courage."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 8,
+                        "char_errors": 32,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7441860465116279
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.023255813953488372
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "She was always ready to help anyone in need despite her young age.",
+                "obtained": [
+                    " all group attack green group eight",
+                    "she was always ready to help any one in need despite her young age",
+                    " She was always ready to help anyone in need despite her younger age."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 13,
+                        "char_errors": 52,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7878787878787878
+                    },
+                    "run_lee": {
+                        "word_errors": 9,
+                        "char_errors": 16,
+                        "word_error_rate": 0.6923076923076923,
+                        "char_error_rate": 0.24242424242424243
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 0,
+                        "word_error_rate": 0.07692307692307693,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "A mysterious creature began to terrorize the village one day.",
+                "obtained": [
+                    " group eight gunners attack blue group eight",
+                    "a mysterious creator began to terrorize the village one day",
+                    " A mysterious creator began to terrorize the village one day."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 10,
+                        "char_errors": 41,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6721311475409836
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 2,
+                        "word_error_rate": 0.3,
+                        "char_error_rate": 0.03278688524590164
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 1,
+                        "word_error_rate": 0.1,
+                        "char_error_rate": 0.01639344262295082
+                    }
+                }
+            },
+            {
+                "expected": "It was a dragon.",
+                "obtained": [
+                    " group four attack orange king",
+                    "it was a dragon",
+                    " It was a dragon."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 5,
+                        "char_errors": 9,
+                        "word_error_rate": 1.25,
+                        "char_error_rate": 0.5625
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.0625
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "The dragon was as tall as the mountain and as fierce as the forest.",
+                "obtained": [
+                    " group eight gunners stop fire",
+                    "the dragon was as tall as the mountain and as fierce as the forest",
+                    " The dragon was as tall as the mountain and as fierce as the forest."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 14,
+                        "char_errors": 53,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7910447761194029
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.14285714285714285,
+                        "char_error_rate": 0.014925373134328358
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "The villagers were terrified.",
+                "obtained": [
+                    " group eight gunners attack blue group five",
+                    "the villagers were till i refide",
+                    " The villagers were terrified."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 7,
+                        "char_errors": 17,
+                        "word_error_rate": 1.75,
+                        "char_error_rate": 0.5862068965517241
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 4,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.13793103448275862
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "They didn't know what to do.",
+                "obtained": [
+                    " group two go_to yellow group two",
+                    "they didn't know what to do",
+                    " They didn't know what to do."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 6,
+                        "char_errors": 20,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7142857142857143
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.3333333333333333,
+                        "char_error_rate": 0.03571428571428571
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "The dragon would swoop down from the mountain every day.",
+                "obtained": [
+                    " group nine shoot_at green king",
+                    "the dragon would swoop down from the mountain every day",
+                    " The dragon swoop down from the mountain every day."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 10,
+                        "char_errors": 45,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8035714285714286
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.2,
+                        "char_error_rate": 0.017857142857142856
+                    },
+                    "run_whisper": {
+                        "word_errors": 8,
+                        "char_errors": 32,
+                        "word_error_rate": 0.8,
+                        "char_error_rate": 0.5714285714285714
+                    }
+                }
+            },
+            {
+                "expected": "It caused havoc and fear.",
+                "obtained": [
+                    " group five follow group zero",
+                    "it coast havoc and fear",
+                    " It caused havoc and fear."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 5,
+                        "char_errors": 17,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.68
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 4,
+                        "word_error_rate": 0.6,
+                        "char_error_rate": 0.16
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "Lily saw the distress of her fellow villagers.",
+                "obtained": [
+                    " group three snipers follow pink group six",
+                    "lily saw the distress of her fellow villages",
+                    " Lily saw the distress of her fellow villages."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 8,
+                        "char_errors": 34,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7391304347826086
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 2,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.043478260869565216
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 2,
+                        "word_error_rate": 0.125,
+                        "char_error_rate": 0.043478260869565216
+                    }
+                }
+            },
+            {
+                "expected": "She decided to do something.",
+                "obtained": [
+                    " group five gunners follow king",
+                    "she decided to do something",
+                    " She decided to do something."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 5,
+                        "char_errors": 14,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.03571428571428571
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "She remembered an old tale her grandmother had told her.",
+                "obtained": [
+                    " group seven hold fire",
+                    "she remembered an old tale her grandmother had told her",
+                    " She remembered an old tale her grandmother had told her."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 10,
+                        "char_errors": 40,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7142857142857143
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.2,
+                        "char_error_rate": 0.017857142857142856
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "It was about a dragon who was calmed by a beautiful melody.",
+                "obtained": [
+                    " group nine gunners shoot_at blue king",
+                    "it was about a dragon who was come down by a pitiful melody",
+                    " It was about a dragon who was calmed down by a beautiful melody."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 12,
+                        "char_errors": 46,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7796610169491526
+                    },
+                    "run_lee": {
+                        "word_errors": 7,
+                        "char_errors": 15,
+                        "word_error_rate": 0.5833333333333334,
+                        "char_error_rate": 0.2542372881355932
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 10,
+                        "word_error_rate": 0.4166666666666667,
+                        "char_error_rate": 0.1694915254237288
+                    }
+                }
+            },
+            {
+                "expected": "Lily had a beautiful voice.",
+                "obtained": [
+                    "",
+                    "liddy had a beautiful voice",
+                    " Lily had a beautiful voice."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 5,
+                        "char_errors": 23,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8518518518518519
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 3,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.1111111111111111
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "She decided to sing to the dragon.",
+                "obtained": [
+                    " group five gunners shoot_at blue group five gunners",
+                    "she decided to sing to the dragon",
+                    " She decided to sing to the dragon."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 8,
+                        "char_errors": 21,
+                        "word_error_rate": 1.1428571428571428,
+                        "char_error_rate": 0.6176470588235294
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.2857142857142857,
+                        "char_error_rate": 0.029411764705882353
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "The next day the dragon swooped down.",
+                "obtained": [
+                    " group eight attack pink group seven",
+                    "the next day the dragon swooped down",
+                    " The next day the dragon swooped down."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 7,
+                        "char_errors": 26,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7027027027027027
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.2857142857142857,
+                        "char_error_rate": 0.02702702702702703
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "Lily stood in the middle of the village.",
+                "obtained": [
+                    " group six shoot_at yellow king",
+                    "the least stewed in the middle of the village",
+                    " Release two in the middle of the village."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 8,
+                        "char_errors": 27,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.675
+                    },
+                    "run_lee": {
+                        "word_errors": 9,
+                        "char_errors": 22,
+                        "word_error_rate": 1.125,
+                        "char_error_rate": 0.55
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 5,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.125
+                    }
+                }
+            },
+            {
+                "expected": "She began to sing.",
+                "obtained": [
+                    " group eight go_to king",
+                    "she began to sing",
+                    " She began to sing."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 4,
+                        "char_errors": 9,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.05555555555555555
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "Her voice was clear and beautiful.",
+                "obtained": [
+                    " group four set speed to zero",
+                    "her voice was clear and beautiful",
+                    " Her voice was clear and beautiful."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 6,
+                        "char_errors": 18,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5294117647058824
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.3333333333333333,
+                        "char_error_rate": 0.029411764705882353
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "It echoed through the mountains and forest.",
+                "obtained": [
+                    " all group attack pink group four gunners",
+                    "it hiccowed through the mountains and the forest",
+                    " It takes out through the mountains and the forest."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 7,
+                        "char_errors": 31,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7209302325581395
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 10,
+                        "word_error_rate": 0.5714285714285714,
+                        "char_error_rate": 0.23255813953488372
+                    },
+                    "run_whisper": {
+                        "word_errors": 8,
+                        "char_errors": 18,
+                        "word_error_rate": 1.1428571428571428,
+                        "char_error_rate": 0.4186046511627907
+                    }
+                }
+            },
+            {
+                "expected": "The dragon heard the melody.",
+                "obtained": [
+                    " group five gunners attack blue king",
+                    "the dragon heard the melody",
+                    " The dragon heard the melody."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 6,
+                        "char_errors": 19,
+                        "word_error_rate": 1.2,
+                        "char_error_rate": 0.6785714285714286
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.03571428571428571
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "It began to calm down.",
+                "obtained": [
+                    " group eight gunners attack blue king",
+                    "it began to come down",
+                    " It began to calm down."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 6,
+                        "char_errors": 16,
+                        "word_error_rate": 1.2,
+                        "char_error_rate": 0.7272727272727273
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 4,
+                        "word_error_rate": 0.6,
+                        "char_error_rate": 0.18181818181818182
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "It landed gently in front of Lily.",
+                "obtained": [
+                    " defenders attack blue group four",
+                    "it landed gently in front of lily",
+                    " It landed gently in front of Lily."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 7,
+                        "char_errors": 24,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7058823529411765
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 2,
+                        "word_error_rate": 0.2857142857142857,
+                        "char_error_rate": 0.058823529411764705
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "It listened intently to her song.",
+                "obtained": [
+                    " defenders attack pink group five",
+                    "it listened intently to her song",
+                    " It listened intently to her song."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 6,
+                        "char_errors": 22,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6666666666666666
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.3333333333333333,
+                        "char_error_rate": 0.030303030303030304
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "Lily finished her song. The dragon was no longer fierce and terrifying.",
+                "obtained": [
+                    " group one gunners go_to group five",
+                    "lily finished her song the dragon was no longer fierce and terrifying",
+                    " Lily finished her song, the dragon was no longer fierce and terrifying."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 12,
+                        "char_errors": 52,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7323943661971831
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 2,
+                        "word_error_rate": 0.3333333333333333,
+                        "char_error_rate": 0.028169014084507043
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 2,
+                        "word_error_rate": 0.16666666666666666,
+                        "char_error_rate": 0.028169014084507043
+                    }
+                }
+            },
+            {
+                "expected": "It bowed its head to her.",
+                "obtained": [
+                    " group two go_to king,  defenders hold fire",
+                    "it boat its, head to her",
+                    " It bowed its head to her."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 7,
+                        "char_errors": 17,
+                        "word_error_rate": 1.1666666666666667,
+                        "char_error_rate": 0.68
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 3,
+                        "word_error_rate": 0.6666666666666666,
+                        "char_error_rate": 0.12
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "From that day forward the dragon no longer terrorized the village.",
+                "obtained": [
+                    " group one go_to group two",
+                    "from that day forward the dragon no longer terrized the village",
+                    " from that day forward to drag and no longer terrorize the village."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 11,
+                        "char_errors": 50,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7575757575757576
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 5,
+                        "word_error_rate": 0.2727272727272727,
+                        "char_error_rate": 0.07575757575757576
+                    },
+                    "run_whisper": {
+                        "word_errors": 9,
+                        "char_errors": 15,
+                        "word_error_rate": 0.8181818181818182,
+                        "char_error_rate": 0.22727272727272727
+                    }
+                }
+            },
+            {
+                "expected": "Instead it would come down from the mountain to listen to Lily's songs.",
+                "obtained": [
+                    " group nine set speed to seven",
+                    "instead it would come down from the mountain to listen to lilison",
+                    " Instead, it would come down from the mountain to listen to Lilith's song."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 13,
+                        "char_errors": 51,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7183098591549296
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 11,
+                        "word_error_rate": 0.23076923076923078,
+                        "char_error_rate": 0.15492957746478872
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 4,
+                        "word_error_rate": 0.23076923076923078,
+                        "char_error_rate": 0.056338028169014086
+                    }
+                }
+            },
+            {
+                "expected": "This brought peace and harmony to the village.",
+                "obtained": [
+                    " group six attack orange group two gunners",
+                    "this brought peace and harmony to the village",
+                    " This brought peace and harmony to the village."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 8,
+                        "char_errors": 32,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6956521739130435
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.021739130434782608
+                    },
+                    "run_whisper": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "Lily's courage and kindness saved her village.",
+                "obtained": [
+                    " group five gunners attack blue king",
+                    "the discourage and kindness saved her village",
+                    " Lillie's courage and kindness saved her village."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 7,
+                        "char_errors": 32,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6956521739130435
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 10,
+                        "word_error_rate": 0.42857142857142855,
+                        "char_error_rate": 0.21739130434782608
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 3,
+                        "word_error_rate": 0.14285714285714285,
+                        "char_error_rate": 0.06521739130434782
+                    }
+                }
+            },
+            {
+                "expected": "This proved that sometimes the mightiest problems can be solved with the simplest solutions.",
+                "obtained": [
+                    " group eight follow pink group seven",
+                    "proved that sometimes the mightiest problems can be solved with the simplest solitude",
+                    " This proved that sometimes the mightier problems can be solved with the simpler solutions."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 14,
+                        "char_errors": 69,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.75
+                    },
+                    "run_lee": {
+                        "word_errors": 14,
+                        "char_errors": 59,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6413043478260869
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 2,
+                        "word_error_rate": 0.14285714285714285,
+                        "char_error_rate": 0.021739130434782608
+                    }
+                }
+            },
+            {
+                "expected": "They all lived happily ever after. The end.",
+                "obtained": [
+                    " all group attack orange king",
+                    "they all lived happily ever after",
+                    " They all lived happily ever after."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 8,
+                        "char_errors": 34,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7906976744186046
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 8,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.18604651162790697
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 7,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.16279069767441862
+                    }
+                }
+            }
+        ],
+        "total_word_errors": {
+            "run_grammar": 290,
+            "run_lee": 124,
+            "run_whisper": 47
+        },
+        "total_char_errors": {
+            "run_grammar": 1098,
+            "run_lee": 218,
+            "run_whisper": 105
+        },
+        "total_word_error_rate": {
+            "run_grammar": 1.0283687943262412,
+            "run_lee": 0.4397163120567376,
+            "run_whisper": 0.16666666666666666
+        },
+        "total_char_error_rate": {
+            "run_grammar": 0.7171783148269105,
+            "run_lee": 0.14239059438275636,
+            "run_whisper": 0.06858262573481384
+        }
+    },
+    {
+        "filename": "Phrases histoire fr.txt",
+        "results": [
+            {
+                "expected": "Il \u00c3\u00a9tait une fois, dans un petit village nich\u00c3\u00a9 entre une for\u00c3\u00aat dense et une montagne imposante, une jeune fille nomm\u00c3\u00a9e Lily.",
+                "obtained": [
+                    " group five gunners attack yellow king",
+                    "elitte when further particular knissia alternative, for a d'or send in montagu apauza in, gentle, normilles",
+                    " Il \u00e9tait une fois dans un petit village nich\u00e9 entre une for\u00eat d'ense et une montagne imposante, une jeune fille nomm\u00e9e Lily."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 22,
+                        "char_errors": 105,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8203125
+                    },
+                    "run_lee": {
+                        "word_errors": 22,
+                        "char_errors": 87,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6796875
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 14,
+                        "word_error_rate": 0.2727272727272727,
+                        "char_error_rate": 0.109375
+                    }
+                }
+            },
+            {
+                "expected": "Elle \u00c3\u00a9tait connue dans tout le village pour sa gentillesse et son courage.",
+                "obtained": [
+                    " group seven attack blue mothership",
+                    "alytiko needo tuvillas per serseism, college",
+                    " Elle \u00e9tait connue dans tout le village pour s'agentiller \u00e0 ses son courage."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 13,
+                        "char_errors": 61,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8133333333333334
+                    },
+                    "run_lee": {
+                        "word_errors": 13,
+                        "char_errors": 60,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8
+                    },
+                    "run_whisper": {
+                        "word_errors": 4,
+                        "char_errors": 9,
+                        "word_error_rate": 0.3076923076923077,
+                        "char_error_rate": 0.12
+                    }
+                }
+            },
+            {
+                "expected": "Malgr\u00c3\u00a9 son jeune \u00c3\u00a2ge, elle \u00c3\u00a9tait toujours pr\u00c3\u00aate \u00c3\u00a0 aider ceux qui en avaient besoin.",
+                "obtained": [
+                    " group six shoot_at blue group one",
+                    "magresso andague a little pretreta e di succio nevibazo",
+                    " Malgr\u00e9 son jeune \u00e2ge, elle \u00e9tait toujours pr\u00eate \u00e0 aider ceux qui en avaient besoin."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 15,
+                        "char_errors": 65,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7386363636363636
+                    },
+                    "run_lee": {
+                        "word_errors": 15,
+                        "char_errors": 57,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6477272727272727
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 14,
+                        "word_error_rate": 0.3333333333333333,
+                        "char_error_rate": 0.1590909090909091
+                    }
+                }
+            },
+            {
+                "expected": "Un jour, une cr\u00c3\u00a9ature myst\u00c3\u00a9rieuse commen\u00c3\u00a7a \u00c3\u00a0 terroriser le village.",
+                "obtained": [
+                    " group two snipers go_to all orange gunners",
+                    "ajreau in catch on mister tlyus commoseate de voysuville",
+                    " Un jour, pour une cr\u00e9ature myst\u00e9rieuse, commence \u00e0 terroriser le village."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 10,
+                        "char_errors": 42,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5915492957746479
+                    },
+                    "run_lee": {
+                        "word_errors": 10,
+                        "char_errors": 29,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.4084507042253521
+                    },
+                    "run_whisper": {
+                        "word_errors": 9,
+                        "char_errors": 27,
+                        "word_error_rate": 0.9,
+                        "char_error_rate": 0.38028169014084506
+                    }
+                }
+            },
+            {
+                "expected": "C'\u00c3\u00a9tait un dragon, aussi grand que la montagne et aussi f\u00c3\u00a9roce que la for\u00c3\u00aat.",
+                "obtained": [
+                    " group eight gunners set speed to one",
+                    "sit it on the hagum who, with sigil could i will dine you said phyllis carefully",
+                    " C'\u00e9tait un dragon, aussi grand que la montagne et aussi f\u00e9roce que la for\u00eat."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 14,
+                        "char_errors": 59,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7468354430379747
+                    },
+                    "run_lee": {
+                        "word_errors": 16,
+                        "char_errors": 41,
+                        "word_error_rate": 1.1428571428571428,
+                        "char_error_rate": 0.5189873417721519
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 13,
+                        "word_error_rate": 0.21428571428571427,
+                        "char_error_rate": 0.16455696202531644
+                    }
+                }
+            },
+            {
+                "expected": "Les villageois \u00c3\u00a9taient terrifi\u00c3\u00a9s et ne savaient pas quoi faire.",
+                "obtained": [
+                    " group two apply defense pattern",
+                    "they did that wait till you've seen a savibauffer",
+                    " Les villages voies \u00e9taient terrifi\u00e9es et ne savaient pas quoi faire."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 10,
+                        "char_errors": 42,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6461538461538462
+                    },
+                    "run_lee": {
+                        "word_errors": 10,
+                        "char_errors": 30,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.46153846153846156
+                    },
+                    "run_whisper": {
+                        "word_errors": 10,
+                        "char_errors": 28,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.4307692307692308
+                    }
+                }
+            },
+            {
+                "expected": "Le dragon descendait de la montagne chaque jour, semant le chaos et la peur.",
+                "obtained": [
+                    " group one apply attack pattern",
+                    "the dragon desande de la montaigne januac sermur caulu lapert",
+                    " Le dragon descendait de la montagne chaque jour, sement le chaos et la peur."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 14,
+                        "char_errors": 54,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7105263157894737
+                    },
+                    "run_lee": {
+                        "word_errors": 11,
+                        "char_errors": 40,
+                        "word_error_rate": 0.7857142857142857,
+                        "char_error_rate": 0.5263157894736842
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 1,
+                        "word_error_rate": 0.07142857142857142,
+                        "char_error_rate": 0.013157894736842105
+                    }
+                }
+            },
+            {
+                "expected": "Lily, voyant la d\u00c3\u00a9tresse de ses concitoyens, d\u00c3\u00a9cida d'agir.",
+                "obtained": [
+                    " group one go_to group five,  group one go_to mothership",
+                    "leave wagon at the trastus, twentyan desi da delay jeho",
+                    " Les livres voyant la d\u00e9tresse de ces concitoyens d\u00e9cident \u00e0 d'agir."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 9,
+                        "char_errors": 34,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5573770491803278
+                    },
+                    "run_lee": {
+                        "word_errors": 10,
+                        "char_errors": 28,
+                        "word_error_rate": 1.1111111111111112,
+                        "char_error_rate": 0.45901639344262296
+                    },
+                    "run_whisper": {
+                        "word_errors": 11,
+                        "char_errors": 27,
+                        "word_error_rate": 1.2222222222222223,
+                        "char_error_rate": 0.4426229508196721
+                    }
+                }
+            },
+            {
+                "expected": "Elle se souvint d'une vieille histoire que sa grand-m\u00c3\u00a8re lui avait racont\u00c3\u00a9e \u00c3\u00a0 propos d'un dragon qui avait \u00c3\u00a9t\u00c3\u00a9 apais\u00c3\u00a9 par une belle m\u00c3\u00a9lodie.",
+                "obtained": [
+                    " group one snipers shoot_at pink group nine gunners",
+                    "and so survand and vese to ask a sagormy ever agony apropos and i won charvy ethere pisipa in bella mirror de",
+                    " Elle se souvint d'une vieille histoire que sa grand-m\u00e8re lui avait racont\u00e9 \u00e0 propos d'un dragon qui avait \u00e9t\u00e9 appais\u00e9 par une belle m\u00e9lodie."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 24,
+                        "char_errors": 115,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.782312925170068
+                    },
+                    "run_lee": {
+                        "word_errors": 24,
+                        "char_errors": 82,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5578231292517006
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 20,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.1360544217687075
+                    }
+                }
+            },
+            {
+                "expected": "Lily, qui avait une voix magnifique, d\u00c3\u00a9cida de chanter pour le dragon.",
+                "obtained": [
+                    " group eight shoot_at orange king,  defenders follow pink group one",
+                    "the late avigent woman's, city de chante portagum",
+                    " L'\u00eele y avait une voie magnifique d\u00e9cida de chanter pour le dragon."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 12,
+                        "char_errors": 53,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7464788732394366
+                    },
+                    "run_lee": {
+                        "word_errors": 12,
+                        "char_errors": 46,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.647887323943662
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 11,
+                        "word_error_rate": 0.4166666666666667,
+                        "char_error_rate": 0.15492957746478872
+                    }
+                }
+            },
+            {
+                "expected": "Le lendemain, alors que le dragon descendait, Lily se tenait au milieu du village et commen\u00c3\u00a7a \u00c3\u00a0 chanter.",
+                "obtained": [
+                    " group eight gunners attack blue group five",
+                    "louon demand loch carroll desandere le lisitiner miguel du village ecomos sancho",
+                    " Le lendemain, alors que le dragon descendait, Lili se tenait au milieu du village et commen\u00e7ait \u00e0 chanter."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 18,
+                        "char_errors": 74,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6981132075471698
+                    },
+                    "run_lee": {
+                        "word_errors": 18,
+                        "char_errors": 73,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6886792452830188
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 5,
+                        "word_error_rate": 0.16666666666666666,
+                        "char_error_rate": 0.04716981132075472
+                    }
+                }
+            },
+            {
+                "expected": "Sa voix \u00c3\u00a9tait claire et belle, r\u00c3\u00a9sonnant \u00c3\u00a0 travers les montagnes et la for\u00c3\u00aat. Le dragon, entendant la m\u00c3\u00a9lodie, commen\u00c3\u00a7a \u00c3\u00a0 se calmer.",
+                "obtained": [
+                    " group one apply normal pattern",
+                    "savuettle ele riso noatraverley muta nier foe",
+                    " Sa voix \u00e9tait claire et belle, raisonnant \u00e0 travers les montagnes et la for\u00eat."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 23,
+                        "char_errors": 113,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8129496402877698
+                    },
+                    "run_lee": {
+                        "word_errors": 23,
+                        "char_errors": 100,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7194244604316546
+                    },
+                    "run_whisper": {
+                        "word_errors": 13,
+                        "char_errors": 59,
+                        "word_error_rate": 0.5652173913043478,
+                        "char_error_rate": 0.4244604316546763
+                    }
+                }
+            },
+            {
+                "expected": "Il atterrit doucement devant Lily, \u00c3\u00a9coutant attentivement sa chanson.",
+                "obtained": [
+                    " group one gunners set speed to nine",
+                    "ludragwort on meduresome, mouses with galley",
+                    " Le dragon entendant la m\u00e9lodie comment \u00e7a se calmer."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 9,
+                        "char_errors": 33,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.4714285714285714
+                    },
+                    "run_lee": {
+                        "word_errors": 9,
+                        "char_errors": 51,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7285714285714285
+                    },
+                    "run_whisper": {
+                        "word_errors": 9,
+                        "char_errors": 37,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5285714285714286
+                    }
+                }
+            },
+            {
+                "expected": "Quand Lily eut fini de chanter, le dragon, qui n'\u00c3\u00a9tait plus f\u00c3\u00a9roce et terrifiant, baissa la t\u00c3\u00aate devant elle.",
+                "obtained": [
+                    " group two snipers attack pink group five",
+                    "called in the chautlu dragon chind thee preferoscativon besala tete a devil",
+                    " Quand Lili eut fini de chanter, le dragon qui n'\u00e9tait plus f\u00e9roce et terrifiant baissait la t\u00eate devant elle."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 19,
+                        "char_errors": 90,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8035714285714286
+                    },
+                    "run_lee": {
+                        "word_errors": 19,
+                        "char_errors": 75,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6696428571428571
+                    },
+                    "run_whisper": {
+                        "word_errors": 7,
+                        "char_errors": 14,
+                        "word_error_rate": 0.3684210526315789,
+                        "char_error_rate": 0.125
+                    }
+                }
+            },
+            {
+                "expected": "\u00c3\u20ac partir de ce jour, le dragon ne terrorisa plus le village.",
+                "obtained": [
+                    " group one attack yellow group seven gunners",
+                    "apart said the surgeon, or that i gone that to her has that prejudices, delight",
+                    " A partir de ce jour, le dragon ne t'aurait \u00e0 plus le village."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 12,
+                        "char_errors": 45,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7377049180327869
+                    },
+                    "run_lee": {
+                        "word_errors": 15,
+                        "char_errors": 25,
+                        "word_error_rate": 1.25,
+                        "char_error_rate": 0.4098360655737705
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 12,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.19672131147540983
+                    }
+                }
+            },
+            {
+                "expected": "Au contraire, il descendait de la montagne pour \u00c3\u00a9couter les chansons de Lily, apportant la paix et l'harmonie au village.",
+                "obtained": [
+                    "",
+                    "a contrire ill deceived la mon ten poiquiticos under lily a potola peel lamoni village",
+                    " Au contraire, il descendait de la montagne pour \u00e9couter les chansons de Lili, apportant la paix et l'armony au village."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 20,
+                        "char_errors": 103,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8442622950819673
+                    },
+                    "run_lee": {
+                        "word_errors": 20,
+                        "char_errors": 65,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5327868852459017
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 14,
+                        "word_error_rate": 0.15,
+                        "char_error_rate": 0.11475409836065574
+                    }
+                }
+            },
+            {
+                "expected": "Ainsi, le courage et la gentillesse de Lily sauv\u00c3\u00a8rent son village, prouvant que parfois, les probl\u00c3\u00a8mes les plus redoutables peuvent \u00c3\u00aatre r\u00c3\u00a9solus avec les solutions les plus simples.",
+                "obtained": [
+                    " group nine follow group seven,  group nine attack pink king",
+                    "and see you quite till i shall say as dearly little, silverzov i loaved, who vocabo le promeplipeta roizouly avicens to",
+                    " Ainsi, le courage et l'agentiesse de Lily sauver son village, prouvant que parfois, les probl\u00e8mes les plus redoutables pouvaient \u00eatre r\u00e9solus avec les solutions les plus simples."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 28,
+                        "char_errors": 141,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7621621621621621
+                    },
+                    "run_lee": {
+                        "word_errors": 28,
+                        "char_errors": 107,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5783783783783784
+                    },
+                    "run_whisper": {
+                        "word_errors": 24,
+                        "char_errors": 89,
+                        "word_error_rate": 0.8571428571428571,
+                        "char_error_rate": 0.4810810810810811
+                    }
+                }
+            },
+            {
+                "expected": "Et ils v\u00c3\u00a9curent tous heureux pour toujours.",
+                "obtained": [
+                    " group eight retreat",
+                    "a victual two silver portraits",
+                    " et il v\u00e9cure tout ce repos toujours."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 7,
+                        "char_errors": 36,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8181818181818182
+                    },
+                    "run_lee": {
+                        "word_errors": 7,
+                        "char_errors": 31,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7045454545454546
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 12,
+                        "word_error_rate": 0.8571428571428571,
+                        "char_error_rate": 0.2727272727272727
+                    }
+                }
+            },
+            {
+                "expected": "Fin.",
+                "obtained": [
+                    "",
+                    "thought",
+                    " Faut."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 1,
+                        "char_errors": 4,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 1.0
+                    },
+                    "run_lee": {
+                        "word_errors": 1,
+                        "char_errors": 4,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 1.0
+                    },
+                    "run_whisper": {
+                        "word_errors": 1,
+                        "char_errors": 3,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.75
+                    }
+                }
+            }
+        ],
+        "total_word_errors": {
+            "run_grammar": 280,
+            "run_lee": 283,
+            "run_whisper": 132
+        },
+        "total_char_errors": {
+            "run_grammar": 1269,
+            "run_lee": 1031,
+            "run_whisper": 409
+        },
+        "total_word_error_rate": {
+            "run_grammar": 1.0,
+            "run_lee": 1.0107142857142857,
+            "run_whisper": 0.4714285714285714
+        },
+        "total_char_error_rate": {
+            "run_grammar": 0.7447183098591549,
+            "run_lee": 0.6050469483568075,
+            "run_whisper": 0.24002347417840375
+        }
+    },
+    {
+        "filename": "Phrases Grammaire.txt",
+        "results": [
+            {
+                "expected": "all group attack orange group four",
+                "obtained": [
+                    " all group attack orange group four",
+                    "old group attack or rent group for",
+                    " All group attack arrange group 4."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 5,
+                        "char_errors": 10,
+                        "word_error_rate": 0.8333333333333334,
+                        "char_error_rate": 0.29411764705882354
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 8,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.23529411764705882
+                    }
+                }
+            },
+            {
+                "expected": "group three attack orange group two",
+                "obtained": [
+                    " group three attack orange group two",
+                    "group three attack or ranch group too",
+                    " Group 3, Attack Orange Group 2."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 7,
+                        "word_error_rate": 0.6666666666666666,
+                        "char_error_rate": 0.2
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 8,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.22857142857142856
+                    }
+                }
+            },
+            {
+                "expected": "all group retreat",
+                "obtained": [
+                    " all group retreat",
+                    "all group retreat",
+                    " All group retreat."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.6666666666666666,
+                        "char_error_rate": 0.058823529411764705
+                    }
+                }
+            },
+            {
+                "expected": "all group follow king",
+                "obtained": [
+                    " all group follow king",
+                    "all group follow king",
+                    " All group for looking."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 6,
+                        "word_error_rate": 0.75,
+                        "char_error_rate": 0.2857142857142857
+                    }
+                }
+            },
+            {
+                "expected": "all group follow mothership",
+                "obtained": [
+                    " all group follow mothership",
+                    "all group follow mothership",
+                    " All group follow Mother Ship."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 2,
+                        "word_error_rate": 0.75,
+                        "char_error_rate": 0.07407407407407407
+                    }
+                }
+            },
+            {
+                "expected": "all group set speed to zero",
+                "obtained": [
+                    " all group set speed to zero",
+                    "all groups that speed to zero",
+                    " All groups set speed to zero."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 3,
+                        "word_error_rate": 0.3333333333333333,
+                        "char_error_rate": 0.1111111111111111
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 1,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.037037037037037035
+                    }
+                }
+            },
+            {
+                "expected": "all group set speed to nine",
+                "obtained": [
+                    " all group set speed to nine",
+                    "all groups that speak to nine",
+                    " All groups at speed 29."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 5,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.18518518518518517
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 9,
+                        "word_error_rate": 0.8333333333333334,
+                        "char_error_rate": 0.3333333333333333
+                    }
+                }
+            },
+            {
+                "expected": "teleport to mothership",
+                "obtained": [
+                    " group four go_to mothership",
+                    "telliport to mothership",
+                    " Teleport to Mother Ship."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 4,
+                        "char_errors": 9,
+                        "word_error_rate": 1.3333333333333333,
+                        "char_error_rate": 0.4090909090909091
+                    },
+                    "run_lee": {
+                        "word_errors": 1,
+                        "char_errors": 5,
+                        "word_error_rate": 0.3333333333333333,
+                        "char_error_rate": 0.22727272727272727
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 2,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.09090909090909091
+                    }
+                }
+            },
+            {
+                "expected": "group one set speed to zero",
+                "obtained": [
+                    " group one set speed to zero",
+                    "grupins et spee to zero",
+                    " Group 1 set speed 2.0"
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 15,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5555555555555556
+                    },
+                    "run_whisper": {
+                        "word_errors": 4,
+                        "char_errors": 8,
+                        "word_error_rate": 0.6666666666666666,
+                        "char_error_rate": 0.2962962962962963
+                    }
+                }
+            },
+            {
+                "expected": "group two attack orange mothership",
+                "obtained": [
+                    " group two attack orange mothership",
+                    "grouped to attack or wrench mothership",
+                    " Group 2 Attack Orange Mother Ship."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 5,
+                        "char_errors": 7,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.20588235294117646
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 5,
+                        "word_error_rate": 1.2,
+                        "char_error_rate": 0.14705882352941177
+                    }
+                }
+            },
+            {
+                "expected": "group three attack orange mothership",
+                "obtained": [
+                    " group three attack orange mothership",
+                    "grouped three attack or wrench mothership",
+                    " Group 3 Attack Orange Modorship"
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 6,
+                        "word_error_rate": 0.8,
+                        "char_error_rate": 0.16666666666666666
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 12,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.3333333333333333
+                    }
+                }
+            },
+            {
+                "expected": "all group attack orange mothership",
+                "obtained": [
+                    " all group attack orange mothership",
+                    "all group attack or wrench mothership",
+                    " All group attack orange mothership."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 6,
+                        "word_error_rate": 0.6,
+                        "char_error_rate": 0.17647058823529413
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.029411764705882353
+                    }
+                }
+            },
+            {
+                "expected": "group four shoot_at orange mothership",
+                "obtained": [
+                    " group four shoot_at orange mothership",
+                    "group four shoot at orange mothers",
+                    " Group 4 Shootout Orange Mother Ship"
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 8,
+                        "word_error_rate": 0.8,
+                        "char_error_rate": 0.21621621621621623
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 7,
+                        "word_error_rate": 1.2,
+                        "char_error_rate": 0.1891891891891892
+                    }
+                }
+            },
+            {
+                "expected": "all group defend mothership",
+                "obtained": [
+                    " all group defend mothership",
+                    "all grouped defend mother ship",
+                    " All group defend mode of the ship."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 0,
+                        "word_error_rate": 0.75,
+                        "char_error_rate": 0.0
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 3,
+                        "word_error_rate": 1.25,
+                        "char_error_rate": 0.1111111111111111
+                    }
+                }
+            },
+            {
+                "expected": "all defenders set speed to zero",
+                "obtained": [
+                    " defenders retreat",
+                    "all defenders that speech, roe",
+                    " All defenders set speed to zero."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 6,
+                        "char_errors": 23,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7419354838709677
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 9,
+                        "word_error_rate": 0.6666666666666666,
+                        "char_error_rate": 0.2903225806451613
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.3333333333333333,
+                        "char_error_rate": 0.03225806451612903
+                    }
+                }
+            },
+            {
+                "expected": "all defenders set speed to five",
+                "obtained": [
+                    " defenders retreat",
+                    "defenders and spe, to five",
+                    " Defender set speed to 5."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 6,
+                        "char_errors": 23,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.7419354838709677
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 16,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5161290322580645
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 15,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.4838709677419355
+                    }
+                }
+            },
+            {
+                "expected": "group three go_to me",
+                "obtained": [
+                    " group three go_to me",
+                    "group three go to me",
+                    " Group 3 go to me."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 2,
+                        "word_error_rate": 0.75,
+                        "char_error_rate": 0.1
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 4,
+                        "word_error_rate": 1.25,
+                        "char_error_rate": 0.2
+                    }
+                }
+            },
+            {
+                "expected": "teleport to group three",
+                "obtained": [
+                    " group four go_to group three",
+                    "till the port to group three",
+                    " Teleport to Group 3."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 5,
+                        "char_errors": 14,
+                        "word_error_rate": 1.25,
+                        "char_error_rate": 0.6086956521739131
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 8,
+                        "word_error_rate": 1.5,
+                        "char_error_rate": 0.34782608695652173
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 4,
+                        "word_error_rate": 0.75,
+                        "char_error_rate": 0.17391304347826086
+                    }
+                }
+            },
+            {
+                "expected": "all group apply shield formation",
+                "obtained": [
+                    " all group apply shield formation",
+                    "all group applies shield formission",
+                    " All group apply shield formation."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 6,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.1875
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.03125
+                    }
+                }
+            },
+            {
+                "expected": "all group apply arrow formation",
+                "obtained": [
+                    " all group apply arrow formation",
+                    "or group a palae a row formation",
+                    " or Grupper Palai Arro Formation."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 8,
+                        "word_error_rate": 1.2,
+                        "char_error_rate": 0.25806451612903225
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 12,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.3870967741935484
+                    }
+                }
+            },
+            {
+                "expected": "all group apply attack pattern",
+                "obtained": [
+                    " all group apply attack pattern",
+                    "all group apply attack pattern",
+                    " All group apply attack pattern."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.03333333333333333
+                    }
+                }
+            },
+            {
+                "expected": "all group apply precision pattern",
+                "obtained": [
+                    " all group apply precision pattern",
+                    "all group applied precision pattern",
+                    " All group apply precision pattern."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 1,
+                        "char_errors": 1,
+                        "word_error_rate": 0.2,
+                        "char_error_rate": 0.030303030303030304
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.030303030303030304
+                    }
+                }
+            },
+            {
+                "expected": "all group apply normal pattern",
+                "obtained": [
+                    " all group apply normal pattern",
+                    "o group apply normal pattern",
+                    " or group apply normal pattern."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 1,
+                        "char_errors": 1,
+                        "word_error_rate": 0.2,
+                        "char_error_rate": 0.03333333333333333
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 2,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.06666666666666667
+                    }
+                }
+            },
+            {
+                "expected": "all group apply normal formation",
+                "obtained": [
+                    " all group apply normal formation",
+                    "all group apply normal formation",
+                    " all group applying normal formation."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 0,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.0
+                    }
+                }
+            },
+            {
+                "expected": "teleport to group one",
+                "obtained": [
+                    " dash to group one",
+                    "thus to group one",
+                    " Dash to Group 1."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 1,
+                        "char_errors": 4,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.19047619047619047
+                    },
+                    "run_lee": {
+                        "word_errors": 1,
+                        "char_errors": 3,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.14285714285714285
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 7,
+                        "word_error_rate": 0.75,
+                        "char_error_rate": 0.3333333333333333
+                    }
+                }
+            },
+            {
+                "expected": "all group attack green group three",
+                "obtained": [
+                    " all group attack green group three",
+                    "or group at that green group three",
+                    " All group attack green group 3."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 14,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.4117647058823529
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 3,
+                        "word_error_rate": 0.3333333333333333,
+                        "char_error_rate": 0.08823529411764706
+                    }
+                }
+            },
+            {
+                "expected": "group one attack blue group five",
+                "obtained": [
+                    " group one attack blue group five",
+                    "upon attack blue group five",
+                    " Group 1 attack blue group 5."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 22,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.6875
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 4,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.125
+                    }
+                }
+            },
+            {
+                "expected": "all group go_to king",
+                "obtained": [
+                    " all group go_to king",
+                    "old group go to king",
+                    " All group go to King"
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 4,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.2
+                    },
+                    "run_whisper": {
+                        "word_errors": 4,
+                        "char_errors": 3,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.15
+                    }
+                }
+            },
+            {
+                "expected": "all group follow group two",
+                "obtained": [
+                    " all group follow group two",
+                    "old group follow grouped you",
+                    " All group follow group two."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 5,
+                        "word_error_rate": 0.6,
+                        "char_error_rate": 0.19230769230769232
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.038461538461538464
+                    }
+                }
+            },
+            {
+                "expected": "all group set speed to five",
+                "obtained": [
+                    " all group set speed to five",
+                    "old groups that speak to five",
+                    " All groups, let's speak to five."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 7,
+                        "word_error_rate": 0.6666666666666666,
+                        "char_error_rate": 0.25925925925925924
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 4,
+                        "word_error_rate": 0.8333333333333334,
+                        "char_error_rate": 0.14814814814814814
+                    }
+                }
+            },
+            {
+                "expected": "all group set speed to three",
+                "obtained": [
+                    " all group set speed to three",
+                    "all groups that speak to three",
+                    " All groups at speed 2-3."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 5,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.17857142857142858
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 10,
+                        "word_error_rate": 0.8333333333333334,
+                        "char_error_rate": 0.35714285714285715
+                    }
+                }
+            },
+            {
+                "expected": "teleport to group two",
+                "obtained": [
+                    " dash to group two",
+                    "that group too",
+                    " Dash to Group 2."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 1,
+                        "char_errors": 4,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.19047619047619047
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 10,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.47619047619047616
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 7,
+                        "word_error_rate": 0.75,
+                        "char_error_rate": 0.3333333333333333
+                    }
+                }
+            },
+            {
+                "expected": "group two set speed to nine",
+                "obtained": [
+                    " group two set speed to nine",
+                    "grew two sets beat to nine",
+                    " Group 2 set speed 2.9"
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 6,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.2222222222222222
+                    },
+                    "run_whisper": {
+                        "word_errors": 4,
+                        "char_errors": 8,
+                        "word_error_rate": 0.6666666666666666,
+                        "char_error_rate": 0.2962962962962963
+                    }
+                }
+            },
+            {
+                "expected": "group four attack yellow mothership",
+                "obtained": [
+                    " group four attack yellow mothership",
+                    "for attack of yellow mothership",
+                    "Gr throw it for ATK Voor \u062f\u0648\u0631\u0647"
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 3,
+                        "char_errors": 9,
+                        "word_error_rate": 0.6,
+                        "char_error_rate": 0.2571428571428571
+                    },
+                    "run_whisper": {
+                        "word_errors": 7,
+                        "char_errors": 12,
+                        "word_error_rate": 1.4,
+                        "char_error_rate": 0.34285714285714286
+                    }
+                }
+            },
+            {
+                "expected": "group five attack green mothership",
+                "obtained": [
+                    " group five attack green mothership",
+                    "five at a grindman ship",
+                    " Group 5 Attack Green Mother Ship"
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 5,
+                        "char_errors": 13,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.38235294117647056
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 5,
+                        "word_error_rate": 1.2,
+                        "char_error_rate": 0.14705882352941177
+                    }
+                }
+            },
+            {
+                "expected": "all group attack blue mothership",
+                "obtained": [
+                    " all group attack blue mothership",
+                    "all group attack bloom or the ship",
+                    " All group attack bloom of the ship."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 4,
+                        "word_error_rate": 0.8,
+                        "char_error_rate": 0.125
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 5,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.15625
+                    }
+                }
+            },
+            {
+                "expected": "group six shoot_at green mothership",
+                "obtained": [
+                    "",
+                    "seek stroot at grinmother ship",
+                    " Group C extruded green mothership."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 5,
+                        "char_errors": 31,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8857142857142857
+                    },
+                    "run_lee": {
+                        "word_errors": 5,
+                        "char_errors": 15,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.42857142857142855
+                    },
+                    "run_whisper": {
+                        "word_errors": 4,
+                        "char_errors": 10,
+                        "word_error_rate": 0.8,
+                        "char_error_rate": 0.2857142857142857
+                    }
+                }
+            },
+            {
+                "expected": "all group protect mothership",
+                "obtained": [
+                    " all group attack blue mothership",
+                    "all group protect mothership",
+                    " All group protect mothership."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 3,
+                        "char_errors": 10,
+                        "word_error_rate": 0.75,
+                        "char_error_rate": 0.35714285714285715
+                    },
+                    "run_lee": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.03571428571428571
+                    }
+                }
+            },
+            {
+                "expected": "all defenders set speed to two",
+                "obtained": [
+                    " defenders set speed to two",
+                    "defenders et speak to too too",
+                    " Defender set speed 22"
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 6,
+                        "char_errors": 13,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.43333333333333335
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 10,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.3333333333333333
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 14,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.4666666666666667
+                    }
+                }
+            },
+            {
+                "expected": "all defenders set speed to seven",
+                "obtained": [
+                    " defenders retreat",
+                    "defenders sezb, to seven",
+                    " Defender Set Speed 27"
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 6,
+                        "char_errors": 24,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.75
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 19,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.59375
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 17,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.53125
+                    }
+                }
+            },
+            {
+                "expected": "group four go_to me",
+                "obtained": [
+                    " group four go_to me",
+                    "good four go to me",
+                    " Group 4, go to me."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 4,
+                        "char_errors": 4,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.21052631578947367
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 5,
+                        "word_error_rate": 1.25,
+                        "char_error_rate": 0.2631578947368421
+                    }
+                }
+            },
+            {
+                "expected": "teleport to group four",
+                "obtained": [
+                    " dash to group four",
+                    "that's to grip four",
+                    " That's the group 4."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 1,
+                        "char_errors": 4,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.18181818181818182
+                    },
+                    "run_lee": {
+                        "word_errors": 2,
+                        "char_errors": 7,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.3181818181818182
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 9,
+                        "word_error_rate": 0.75,
+                        "char_error_rate": 0.4090909090909091
+                    }
+                }
+            },
+            {
+                "expected": "group one apply line formation",
+                "obtained": [
+                    " group one apply line formation",
+                    "grew for an apply line formation",
+                    " Group Run Apply Line Formation."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 14,
+                        "word_error_rate": 1.2,
+                        "char_error_rate": 0.4666666666666667
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 7,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.23333333333333334
+                    }
+                }
+            },
+            {
+                "expected": "group three apply defense pattern",
+                "obtained": [
+                    "",
+                    "three apply defense pattern",
+                    " group 3 apply defense pattern."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 5,
+                        "char_errors": 29,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8787878787878788
+                    },
+                    "run_lee": {
+                        "word_errors": 5,
+                        "char_errors": 29,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8787878787878788
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.4,
+                        "char_error_rate": 0.030303030303030304
+                    }
+                }
+            },
+            {
+                "expected": "group five apply dodge pattern",
+                "obtained": [
+                    " group five apply dodge pattern",
+                    "group five apply doch pattern",
+                    " Group 5 Apply Doarch Pattern"
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 1,
+                        "char_errors": 2,
+                        "word_error_rate": 0.2,
+                        "char_error_rate": 0.06666666666666667
+                    },
+                    "run_whisper": {
+                        "word_errors": 5,
+                        "char_errors": 8,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.26666666666666666
+                    }
+                }
+            },
+            {
+                "expected": "group seven apply attack formation",
+                "obtained": [
+                    " group seven gunners apply arrow formation",
+                    "seven apply attack formation",
+                    " Group 7 apply attack formation."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 4,
+                        "char_errors": 13,
+                        "word_error_rate": 0.8,
+                        "char_error_rate": 0.38235294117647056
+                    },
+                    "run_lee": {
+                        "word_errors": 5,
+                        "char_errors": 29,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.8529411764705882
+                    },
+                    "run_whisper": {
+                        "word_errors": 3,
+                        "char_errors": 2,
+                        "word_error_rate": 0.6,
+                        "char_error_rate": 0.058823529411764705
+                    }
+                }
+            },
+            {
+                "expected": "teleport to group five",
+                "obtained": [
+                    " dash to group five",
+                    "that's to group five",
+                    " Dash to group 5."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 1,
+                        "char_errors": 4,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.18181818181818182
+                    },
+                    "run_lee": {
+                        "word_errors": 1,
+                        "char_errors": 5,
+                        "word_error_rate": 0.25,
+                        "char_error_rate": 0.22727272727272727
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 6,
+                        "word_error_rate": 0.5,
+                        "char_error_rate": 0.2727272727272727
+                    }
+                }
+            },
+            {
+                "expected": "group seven set speed to one",
+                "obtained": [
+                    " group one set speed to one",
+                    "servin sets be to one",
+                    " Group 7 sets beat 2-1."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 1,
+                        "char_errors": 3,
+                        "word_error_rate": 0.16666666666666666,
+                        "char_error_rate": 0.10714285714285714
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 15,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.5357142857142857
+                    },
+                    "run_whisper": {
+                        "word_errors": 6,
+                        "char_errors": 11,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.39285714285714285
+                    }
+                }
+            },
+            {
+                "expected": "group eight attack pink mothership",
+                "obtained": [
+                    " group eight attack pink mothership",
+                    "ripe eight attack pink mothership",
+                    " Group A to attack pink mother ship."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 1,
+                        "char_errors": 4,
+                        "word_error_rate": 0.2,
+                        "char_error_rate": 0.11764705882352941
+                    },
+                    "run_whisper": {
+                        "word_errors": 7,
+                        "char_errors": 12,
+                        "word_error_rate": 1.4,
+                        "char_error_rate": 0.35294117647058826
+                    }
+                }
+            },
+            {
+                "expected": "all group attack yellow group one",
+                "obtained": [
+                    " all group attack yellow group one",
+                    "o group at that yellow group one",
+                    " All group attack yellow group one."
+                ],
+                "error_metrics": {
+                    "run_grammar": {
+                        "word_errors": 0,
+                        "char_errors": 0,
+                        "word_error_rate": 0.0,
+                        "char_error_rate": 0.0
+                    },
+                    "run_lee": {
+                        "word_errors": 6,
+                        "char_errors": 13,
+                        "word_error_rate": 1.0,
+                        "char_error_rate": 0.3939393939393939
+                    },
+                    "run_whisper": {
+                        "word_errors": 2,
+                        "char_errors": 1,
+                        "word_error_rate": 0.3333333333333333,
+                        "char_error_rate": 0.030303030303030304
+                    }
+                }
+            }
+        ],
+        "total_word_errors": {
+            "run_grammar": 55,
+            "run_lee": 169,
+            "run_whisper": 194
+        },
+        "total_char_errors": {
+            "run_grammar": 208,
+            "run_lee": 391,
+            "run_whisper": 287
+        },
+        "total_word_error_rate": {
+            "run_grammar": 0.22,
+            "run_lee": 0.676,
+            "run_whisper": 0.776
+        },
+        "total_char_error_rate": {
+            "run_grammar": 0.1439446366782007,
+            "run_lee": 0.27058823529411763,
+            "run_whisper": 0.1986159169550173
+        }
+    }
+]
