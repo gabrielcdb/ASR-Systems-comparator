@@ -7,12 +7,14 @@ import socket
 import subprocess
 import whisper
 import time 
+import openai
 BUFFER_FORMAT = '=i'
 TEMP_WAV = "temp.wav"
 EOF_MARKER = 0
 WAVE_PARAMS = (1, 2, 16000, 0, 'NONE', 'NONE')
 terminate_flag = threading.Event()
-
+openai.api_key="ENTER YOUR API KEY"
+path = "B:\\ENTER YOUR FOLDER PATH\\"
 
 def calculate_error_rates(expected, obtained):
     expected_words = expected.split()
@@ -42,6 +44,7 @@ def calculate_error_rates(expected, obtained):
     }
 
 def process_file(filename, result_queues):
+    input('\n\n\nPress enter to start the file : '+filename+'\n\n\n')
     with open(filename, 'r') as file:
         sentences = file.readlines()
 
@@ -53,6 +56,10 @@ def process_file(filename, result_queues):
         total_char_errors[function_name] = 0
         total_word_errors[function_name] = 0
     for sentence in sentences:
+        input('\n\nPress enter to start the next sentence (make sure to wait for the last whisper to start)\n\n')
+        for result_queue in result_queues:
+            while not result_queue.empty():
+                additional_result = result_queue.get()
         expected = sentence.strip()
         print()
         print()
@@ -64,6 +71,7 @@ def process_file(filename, result_queues):
                 additional_result = result_queue.get()
                 if additional_result != "":
                     obtained[i] += ', ' + additional_result
+        print('\n\nSentence transcripted\n\n')
         error_metrics = {}
         for i, function in  enumerate(process_functions):
             function_name = function.__name__
@@ -76,7 +84,7 @@ def process_file(filename, result_queues):
             'obtained': obtained,
             'error_metrics': error_metrics,
         })
-
+        
     return {
         'filename': filename,
         'results': results,
@@ -86,7 +94,7 @@ def process_file(filename, result_queues):
         'total_char_error_rate': {total_char_errors_model:total_char_errors[total_char_errors_model] / sum(len(result['expected']) for result in results) for total_char_errors_model in total_char_errors},
     }
 
-def process_files(filenames):
+def process_files(filenames,name):
     result_queues = [queue.Queue() for _ in range(3)]
 
     # Start the ASR systems in separate threads
@@ -106,12 +114,11 @@ def process_files(filenames):
         print("Say :  Anything")
         asr_thread.join()
 
-    with open('results.json', 'w') as file:
+    with open(f'results_{name}.json', 'w') as file:
         json.dump(results, file, indent=4)
-
 def run_grammar(result_queue):
 
-        command = "B:/OneDrive/BureauPortable/Recognition-model/english-julian-kit/bin-win/julius.exe -input mic -h B:/OneDrive/BureauPortable/Recognition-model/english-julian-kit/model/phone_m/hmmdefs.triphone.binhmm -hlist B:/OneDrive/BureauPortable/Recognition-model/english-julian-kit/model/phone_m/tiedlist -gram B:/OneDrive/BureauPortable/Recognition-model/MechaGrammar/mecha -nostrip -cutsilence -module 5536"
+        command = path+"Recognition-model/english-julian-kit/bin-win/julius.exe -input mic -h "+path+"Recognition-model/english-julian-kit/model/phone_m/hmmdefs.triphone.binhmm -hlist "+path+"Recognition-model/english-julian-kit/model/phone_m/tiedlist -gram "+path+"Recognition-model/MechaGrammar/mecha -nostrip -cutsilence -module 5536"
         subprocess.Popen(command, shell=True, stdout=subprocess.DEVNULL)
         time.sleep(2)
         host = 'localhost'  # Server IP
@@ -138,18 +145,18 @@ def run_grammar(result_queue):
                                 if "WORD" in word and not "s>" in word:
                                     sentence += " " + word[6:-1]
                     new_julius_sentence = sentence
-                    print("Grammar, You said : "+new_julius_sentence)
+                    #print("Grammar, You said : "+new_julius_sentence)
                     result_queue.put(new_julius_sentence)
                     sb.clear()
                 elif "RECOGFAIL" in received:
-                    print("Grammar error")
+                    #print("Grammar error")
                     result_queue.put("")
                     sb.clear()
 def run_lee(result_queue):
-        command = "py B:/OneDrive/BureauPortable/Recognition-model/recognition_wo_mmd2.py"
+        command = "py "+path+"Recognition-model/recognition_wo_mmd2.py"
         subprocess.Popen(command,  shell=True, stdout=subprocess.DEVNULL)
         time.sleep(2)
-        command = "B:/OneDrive/BureauPortable/Recognition-model/adintool.exe -in mic -out adinnet -server 127.0.0.1  -port 5533 -cutsilence -nostrip"
+        command = ""+path+"Recognition-model/adintool.exe -in mic -out adinnet -server 127.0.0.1  -port 5533 -cutsilence -nostrip"
         subprocess.Popen(command, stdout=subprocess.DEVNULL, shell=True, stderr=subprocess.STDOUT)
         time.sleep(2)
         host = 'localhost'  # Server IP
@@ -162,11 +169,11 @@ def run_lee(result_queue):
         while not terminate_flag.is_set():
             # Receive data from the client
             message = client_socket.recv(1024).decode()
-            print("Lee, You said : "+message)
+            #print("Lee, You said : "+message)
             result_queue.put(message)
 
 def run_whisper(result_queue):
-        command = f"B:/OneDrive/BureauPortable/Recognition-model/adintool.exe -in mic -out adinnet -server 127.0.0.1  -port 5532 -cutsilence -nostrip -lv 1000"
+        command = f""+path+"Recognition-model/adintool.exe -in mic -out adinnet -server 127.0.0.1  -port 5532 -cutsilence -nostrip -lv 1000"
         subprocess.Popen(command, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
 
         adinserversock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -175,7 +182,7 @@ def run_whisper(result_queue):
         adinserversock.listen(1)
         
         adinclientsock, _ = adinserversock.accept()
-        whisper_model = whisper.load_model("base")
+        #whisper_model = whisper.load_model("base")
         print(f"ASR model whisper loaded")
         print("Listening...")
         buffer = b''
@@ -190,7 +197,9 @@ def run_whisper(result_queue):
                     with wave.open(TEMP_WAV, "wb") as wav_file:
                         wav_file.setparams(WAVE_PARAMS)
                         wav_file.writeframes(buffer)
-                    result = whisper_model.transcribe(TEMP_WAV)
+                    #result = whisper_model.transcribe(TEMP_WAV)
+                    with open(TEMP_WAV, "rb") as audio_file:
+                        result = openai.Audio.transcribe("whisper-1", audio_file)
                     print("Whisper, You said : "+str(result['text']))
                     result_queue.put(str(result['text']))
                     buffer = b''
@@ -200,14 +209,16 @@ def run_whisper(result_queue):
                 break
 
         adinclientsock.close()
+        
+name = input('Enter your name : ')
 # Remplacez ces listes par les commandes réelles et les fonctions de traitement pour vos systèmes ASR
 process_functions = [run_grammar, run_lee, run_whisper]
 
 # Remplacez cette liste par la liste réelle de vos fichiers
 filenames = ['Phrases histoire eng1.txt','Phrases histoire eng2.txt','Phrases histoire fr.txt','Phrases Grammaire.txt']
-#process_files(filenames)
+process_files(filenames,name)
 
-with open('results.json', 'r') as file:
+with open(f'results_{name}.json', 'r') as file:
         data = json.load(file)
 
 run_grammar_t = []
@@ -232,11 +243,22 @@ for file in data:
     run_grammar_t.append(textes["run_grammar"])
     run_lee_t.append(textes["run_lee"])
     run_whisper_t.append(textes["run_whisper"])
-for t in run_grammar_t:
-    print(t)
-print()
-for t in run_lee_t:
-    print(t)
-print()
-for t in run_whisper_t:
-    print(t)
+
+def write_text_to_file(texts, filename):
+    with open(filename, 'a',encoding='utf-8') as txt_file:
+        for t in texts:
+            txt_file.write(t + "\n\n")
+
+# Assuming run_grammar_t, run_lee_t, and run_whisper_t are lists of texts you want to write to the file
+with open(f"output_{name}.txt", 'a',encoding='utf-8') as txt_file:
+    txt_file.write("\n\nGrammar\n")
+# Write run_grammar_t to a file named "output.txt"
+write_text_to_file(run_grammar_t, f"output_{name}.txt")
+with open(f"output_{name}.txt", 'a',encoding='utf-8') as txt_file:
+        txt_file.write("\n\nLee\n")
+# Write run_lee_t to the same file (append mode)
+write_text_to_file(run_lee_t, f"output_{name}.txt")
+with open(f"output_{name}.txt", 'a',encoding='utf-8') as txt_file:
+    txt_file.write("\n\nWhisper\n")
+# Write run_whisper_t to the same file (append mode)
+write_text_to_file(run_whisper_t, f"output_{name}.txt")
